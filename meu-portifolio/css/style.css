@@ -1,0 +1,48 @@
+body {
+    background-color: royalblue;
+}
+
+#principal {
+    background-color: red;
+    width: 960px;
+}
+
+header {
+    background-color: white;
+    color:black;
+    width: 960px;
+    height: 150px;
+}
+
+nav {
+    background-color: green;
+}
+
+h1 {
+    color: wheat;
+}
+
+section {
+    background-color: purple;
+    width: 600px;
+    height: 600px;
+}
+
+article {
+    background-color: pink;
+    width: 550px;
+    height: 170px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+aside {
+    background-color: yellow;
+    width: 360px;
+    height: 600px;
+}
+
+footer {
+    background-color: black;
+}
