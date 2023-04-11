@@ -1,3 +1,29 @@
-body {
-    background-color: black;
+body { /*Quando eu coloco alguma coisa no Body, significa que vou alterar a página inteira*/
+    background-color: black; 
+    font-size: 16px; /*A fonte do meu site inteiro é 16 pixel*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    width: 1440px;
+    background-color: orange;
+    margin: 0px auto;
+}
+
+header {/*a largura ja está sendo herdada da div pai chamada principal*/
+    height: 193px;
+    background-image: url("../imagens/bck-header.jpg"); /*aqui estamos chamando */
+    background-repeat: no-repeat;
+    background-size: 101%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    padding-top: 13px;
+    padding-left: 20px;
+}
+
+#logo img {
+    width: 95%; /*Quando for diminuir a imagem, só colocar a largura ou altura, nunca por largura com a altura*/
 }
