@@ -27,3 +27,13 @@ header {/*a largura ja está sendo herdada da div pai chamada principal*/
 #logo img {
     width: 95%; /*Quando for diminuir a imagem, só colocar a largura ou altura, nunca por largura com a altura*/
 }
+
+nav {
+    width: 600px;
+    height: 100px;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+}
