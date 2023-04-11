@@ -17,10 +17,11 @@ header {/*a largura ja está sendo herdada da div pai chamada principal*/
     background-size: 101%;
     display: flex;
     justify-content: space-between;
+    align-items: center; /*eixo y são o align-items*/
 }
 
 #logo {
-    padding-top: 13px;
+    padding-top: 13px; /*Isso aqui parou de funcionar porque ele vai priorizar o align-tems do pai(header)*/
     padding-left: 20px;
 }
 
@@ -31,9 +32,29 @@ header {/*a largura ja está sendo herdada da div pai chamada principal*/
 nav {
     width: 600px;
     height: 100px;
-    background-color: white;
+    margin-right: 50px;
+    /* background-color: blue; */
 }
 
 ul {
+    height: 100px;
     list-style-type: none;
+    /*Como eu coloco itens de lista um do lado do outro a ul é pai do li, então o pai será quem terá o display flex*/
+    display: flex;
+    justify-content: space-between;   
+    align-items: center; /*para funcionar, precisamos setar uma altura*/
+}
+
+ul li {
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 18px;
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: 600;
 }
