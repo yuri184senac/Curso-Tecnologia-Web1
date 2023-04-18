@@ -111,4 +111,13 @@ section {
 
 aside {
     background-color: orange;
+    width: 400px;
+    display: flex;
+    flex-direction: column; /*O flex direction dizer como os filhos do pai serão organizados*/
+    padding: 50px;
+    align-items: center; /*Align itens center*/
+}
+
+.text-aside {
+    width: 330px;
 }
