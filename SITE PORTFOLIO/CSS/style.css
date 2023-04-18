@@ -6,7 +6,7 @@ body { /*Quando eu coloco alguma coisa no Body, significa que vou alterar a pág
 
 #principal {
     width: 1440px;
-    background-color: orange;
+    background-color: white;
     margin: 0px auto;
 }
 
@@ -17,7 +17,7 @@ header {/*a largura ja está sendo herdada da div pai chamada principal*/
     background-size: 101%;
     display: flex;
     justify-content: space-between;
-    align-items: center; /*eixo y são o align-items*/
+    align-items: end; /*eixo y são o align-items*/
 }
 
 #logo {
@@ -57,4 +57,58 @@ ul li a {
     text-decoration: none;
     color: orangered;
     font-weight: 599;
+}
+
+ul li a:hover {
+    color: black;    
+}
+
+/*AQUI COMEÇA O CONTEÚDO DA PÁGINA*/
+#meiuca {
+    background-color: red;
+    margin-top:16px;
+    padding: 16px;
+}
+
+#primeiro-destaque {
+    width: 1000px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;/*mexe no eixo x*/
+    align-items: flex-start; /*mexe no eixo y*/
+}
+
+#textos-destaque {
+    width: 500px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+p {
+    color: white;
+    /*vou setar o espaço entre linhas*/
+    line-height: 20px;
+}
+
+section {
+    width: 1000px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+}
+
+.topico {
+    width: 244px;
+}
+
+.text-article {
+    color: black
+}
+
+aside {
+    background-color: orange;
 }
