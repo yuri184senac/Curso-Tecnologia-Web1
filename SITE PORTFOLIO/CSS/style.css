@@ -69,6 +69,7 @@ ul li a:hover {
     margin-top:16px;
     padding: 16px;
     display: flex;
+    justify-content: space-between;
 
 }
 
@@ -95,25 +96,36 @@ p {
 }
 
 section {
-    width: 910px;
+    width: 935px;
+    height: 400px;
     background-color: white;
-    display: flex;
+    display: flex;/*o flex por padrão organiza em row.*/
     justify-content: space-between;
     align-items: center;
     padding: 32px;
 }
 
 .topico {
-    width: 244px;
+    width: 300px;
+    display: flex;/*A maneira de como o pai vai organizar os seu filhos*/
+    flex-direction: column;/*pega os filhos do tópico que são 3, e organiza em colunas*/
+    justify-content: center;/*pega o nosso eixo principal e alinha ao eixo principal que é o colunm (alinhou verticalmente o centro)*/
+    background-color: white;
+    /*align-items: center; /*alinha horizontalmente*/
+}
+
+.topico > h2 {
+    color: #282828;
+    font-size: 20px;
 }
 
 .text-article {
-    color: black
+    color: #282828;
 }
 
 aside {
    background-color: orange;
-    width: 400px;
+    width: 380px;
     display: flex;
     padding: 0px;
     justify-content: flex-start;
