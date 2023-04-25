@@ -147,7 +147,7 @@ aside {
 }
 
 #btn-orcamento:hover {
-    background-color: gray;
+    background-color: green;
 }
 
 aside a { /*é o cara filho de aside*/
@@ -160,8 +160,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50px;
+    justify-content: space-around;
+    height: 100px;
     background-color: orange;
     color: white;   
-
 }
