@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*odem importa :
+    1-mobile
+    2-tablet
+    3-desktop
+    4-widescreen
+*/
+
+/*Mobile*/
+body {
+    background-color: red;
+}
+
+h1 {
+    color: white;
+    padding: 5% 5%
+}
+
+/*Tablets*/
+@media (min-width: 768px) {
+    body {
+        background-color: green;
+    }
+
+    h1 {
+        color: orangered
+    }
+}
+
+/*Desktop*/
+@media (min-width: 960px) {
+    body {
+        background-color: blue;
+    }
+
+    h1 {
+        color: yellow;
+    }
+}
+
+/*Widescreen*/
+@media (min-width: 1200px) {
+    body {
+        background-color: black;
+    }
+    
+    h1 {
+        color: lightblue
+    }
+}
+
