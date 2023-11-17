@@ -1,0 +1,185 @@
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 20px;
+}
+
+#principal {
+  width: 1440px;
+  background-color: white;
+  margin: 0px auto;
+}
+
+header {
+  height: 193px;
+  background-image: url("../imagens/bck-header.jpg");
+  background-repeat: no-repeat;
+  background-size: 101%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+#logo {
+  padding-top: 13px;
+  padding-left: 20px;
+}
+
+#logo img {
+  width: 95%;
+}
+
+nav {
+  width: 600px;
+  height: 100px;
+  margin-right: 50px;
+}
+
+ul {
+  height: 100px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li {
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 18px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: orangered;
+  font-weight: 600;
+}
+
+ul li a:hover {
+  color: black;
+}
+
+#meiuca {
+  background-color: red;
+  margin-top: 16px;
+  padding: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#primeiro-destaque {
+  width: 1000px;
+  height: 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#texto-destaque {
+  color: white;
+  width: 500px;
+}
+
+#texto-destaque h2 {
+  color: white;
+  margin-top: 0px;
+}
+
+section {
+  width: 950px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 32px;
+}
+
+.topico {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.texto-topico {
+  width: 250px;
+  font-weight: 800;
+  color: #282828;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.topico h3 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+#meiuca-esquerda {
+}
+
+aside {
+  width: 300px;
+  height: 560px;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+}
+
+aside h1 {
+  color: white;
+  margin-top: 0px;
+}
+
+#text-aside {
+  margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+}
+#btn-orcamento {
+  padding: 10px 15px;
+  background-color: red;
+  border-radius: 18px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  margin-top: 30px;
+}
+
+#btn-orcamento:hover {
+  background-color: green;
+}
+
+aside a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+
+
+
